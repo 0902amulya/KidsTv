@@ -8,7 +8,4 @@ A colorful and kid-friendly Android TV launcher with a grid-based home screen.
 ✅ D-pad remote navigation support  
 ✅ PIN-protected exit  
 
-## Installation
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/YOUR_USERNAME/Kids-TV-Launcher.git
+
