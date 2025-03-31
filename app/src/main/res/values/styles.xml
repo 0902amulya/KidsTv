@@ -1,0 +1,11 @@
+<resources>
+    <style name="Widget.AndriodTv.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">#2C2B18</item>
+    </style>
+
+    <style name="Widget.AndriodTv.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">#CDBFDD</item>
+        <item name="android:textColor">#53512C</item>
+    </style>
+</resources>

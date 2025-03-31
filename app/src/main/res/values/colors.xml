@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#80E2F3</color> <!-- Yellow -->
+    <color name="buttonColor">#FAD051</color> <!-- Orange -->
+    <color name="textColor">#FF3300</color> <!-- White -->
+    <color name="buttonTextColor">#020101</color> <!-- white -->
+    <color name="buttonBackground">#E68585</color> <!-- Black -->
+    <color name="black">#4CC1B1</color>
+    <color name="borderColor">#EEFF58</color>
+    <color name="white">#FFCACA</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_blue_50">#25ACE8</color>
+
+</resources>
