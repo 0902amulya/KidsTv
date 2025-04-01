@@ -49,8 +49,10 @@ class MainActivity : AppCompatActivity() {
             .setView(pinEditText)
             .setPositiveButton("OK") { _, _ ->
                 val enteredPin = pinEditText.text.toString()
-                if (enteredPin == "1234") {  // ✅ Change this to your actual PIN
-                    finishAffinity()  // ✅ Closes the app
+                if (enteredPin == "1234") {  
+
+                    
+                    finishAffinity()  
                 } else {
                     Toast.makeText(this, "Incorrect PIN!", Toast.LENGTH_SHORT).show()
                 }
@@ -83,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             apps.add(App(appName, appIcon, packageName))
         }
 
-        // ✅ Step 2: Force add system TV apps
+        // 
         val forceAddApps = listOf(
             "com.google.android.youtube.tv", // YouTube for TV
             "com.google.android.apps.tv.launcherx", // Google TV Launcher
