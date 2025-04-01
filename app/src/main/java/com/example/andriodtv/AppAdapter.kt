@@ -32,7 +32,7 @@ class AppAdapter(
             onItemClick(app) // Open app when clicked
         }
 
-        // ✅ D-pad Navigation Animation
+        // D-pad Navigation Animation
         holder.itemView.setOnFocusChangeListener { view, hasFocus ->
             if (hasFocus) {
                 view.animate().scaleX(1.2f).scaleY(1.2f).setDuration(200).start()
